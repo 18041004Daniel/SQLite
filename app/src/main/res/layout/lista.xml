@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foregroundTint="#E91E63"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#DD6990"
+            android:textSize="50sp" />
+
+
+        <LinearLayout
+            android:layout_width="311dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_concepto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concepto:" />
+
+            <TextView
+                android:id="@+id/tv_fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha:" />
+
+            <TextView
+                android:id="@+id/tv_tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo:" />
+
+            <TextView
+                android:id="@+id/tv_monto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monto: $" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:background="#ECAAC0" />
+
+</LinearLayout>
